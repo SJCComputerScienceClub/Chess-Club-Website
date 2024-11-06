@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>index-2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+ 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/preview.css" type="text/css">
+	<script type="text/javascript" src="js/include_script.js"></script>
+  	<!--[if lt IE 9]>
+	   	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <link href="css/ie.css" rel="stylesheet" type="text/css">
+    <![endif]-->
+</head>
+<body>
+<!--content wrapper-->
+	<div id="wrapper">
+		<section>
+			<div class="dynamicContent">
+				<div class="cont_bg"></div>
+				<div class="inner">
+					<div class="container">
+						<div class="row">
+							<div class="span8">
+								<div class="block_3">
+									<h3>main</h3>
+									<h2>rules</h2>
+									<ul class="list2">
+										<li>
+											<img src="img/page2_pic1.jpg" alt="">
+											<div class="caption">
+												<p><span class="title">Lorem ipsum dolor sit res.</span><br>
+													Ameton ng elit quis. com mete iorem. Fusce euism consequa anter asellius ster<a href="index5.html" class="link_1 animate">...</a>
+												</p>
+											</div>
+										</li>
+										<li class="right">
+											<img src="img/page2_pic2.jpg" alt="">
+											<div class="caption">
+												<p><span class="title">Lorem ipsum dolor sit res.</span><br>
+													Ameton ng elit quis. com mete iorem. Fusce euism consequa anter asellius ster<a href="index5.html" class="link_1 animate">...</a>
+												</p>
+											</div>
+										</li>
+										<li>
+											<img src="img/page2_pic3.jpg" alt="">
+											<div class="caption">
+												<p><span class="title">Lorem ipsum dolor sit res.</span><br>
+													Ameton ng elit quis. com mete iorem. Fusce euism consequa anter asellius ster<a href="index5.html" class="link_1 animate">...</a>
+												</p>
+											</div>
+										</li>
+										<li class="right">
+											<img src="img/page2_pic4.jpg" alt="">
+											<div class="caption">
+												<p><span class="title">Lorem ipsum dolor sit res.</span><br>
+													Ameton ng elit quis. com mete iorem. Fusce euism consequa anter asellius ster<a href="index5.html" class="link_1 animate">...</a>
+												</p>
+											</div>
+										</li>
+									</ul>
+									<a href="index5.html" class="btn1"><img src="img/bg_more.png" alt=""><span></span></a>
+								</div>
+							</div>
+							<div class="span4">
+								<div class="block_4">
+									<h3>Improve</h3>
+									<h2>Your Chess Game!</h2>
+									<p><span class="title">Lacus ut enim adipise lor milsie tsre steres.</span><br>
+									Ameton ng elit quis. com mete iorem. Fusce euism consequa anter asellius.</p>
+									<ul class="list3">
+										<li><a href="#">Lacus ut enim adipise lor milsie tsr</a></li>
+										<li><a href="#">Steresliquam dapibus tincidu</a></li>
+										<li><a href="#">Fusce euismod consequat ante rem</a></li>
+										<li><a href="#">Sum dolor sit amet consec</a></li>
+										<li><a href="#">Tetuer adipiscing elit pellentesque</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script>
+
+		//list3-------------------------------------------------
+			$('.list3 > li > a').hover(function(){
+			$(this).stop().animate({color:'#ff7f66',marginLeft:5}, 300, "easeOutCubic")
+			}, function(){;
+			$(this).stop().animate({color:'#fff',marginLeft:0}, 300, "easeOutCubic");
+			})   
+		//end list3-------------------------------------------------
+
+		$('.btn1').find('span').css({opacity:'0'});
+		
+		$('.btn1').hover(function()
+			{
+				$(this).find('span').css({opacity:'0'}).stop().animate({opacity:'1'}, 500,'easeOutCubic');			
+			}, function(){
+				$(this).find('span').stop().animate({opacity:'0'}, 500,'easeOutCubic');
+			});
+
+	</script>
+
+</body>
+</html>
