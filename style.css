@@ -76,10 +76,10 @@ main {
 
 .chessboard-pattern {
   height: 90vh;
-  background-image: linear-gradient(45deg, var(--chess-green) 25%, transparent 25%),
+  background-image: linear-gradient(45deg, var(--chess-gray) 25%, transparent 25%),
     linear-gradient(-45deg, var(--chess-green) 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, var(--chess-green) 75%),
-    linear-gradient(-45deg, transparent 75%, var(--chess-green) 75%);
+    linear-gradient(45deg, transparent 75%, var(--chess-gray) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--chess-gray) 75%);
   background-size: 100px 100px;
   background-position: 0 0, 0 50px, 50px -50px, -50px 0px;
   position: relative;
