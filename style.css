@@ -1,10 +1,10 @@
 :root {
   --chess-white: #f0f0f0;
   --chess-black: #1a1a1a;
-  --chess-green: #e92b2b;
+  --chess-green: #980018;
   --chess-light-green: #96b37d;
   --accent-gold: #ffd700;
-  --chess-gray: #cdcdcd;
+  --chess-gray: #575a5d;
 }
 
 * {
