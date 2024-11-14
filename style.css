@@ -79,7 +79,7 @@ main {
     linear-gradient(-45deg, var(--chess-green) 25%, transparent 25%),
     linear-gradient(45deg, transparent 75%, var(--chess-green) 75%),
     linear-gradient(-45deg, transparent 75%, var(--chess-green) 75%);
-  background-size: 40px 40px;
+  background-size: 200px 200px;
   background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
   position: relative;
 }
