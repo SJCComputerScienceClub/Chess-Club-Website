@@ -1,7 +1,7 @@
 :root {
   --chess-white: #f0f0f0;
   --chess-black: #1a1a1a;
-  --chess-green: #980018;
+  --chess-red: #980018;
   --chess-light-green: #96b37d;
   --accent-gold: #ffd700;
   --chess-gray: #575a5d;
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-color: var(--chess-green);
+  background-color: var(--chess-red);
   padding: 1rem;
   position: fixed;
   width: 100%;
@@ -107,7 +107,7 @@ main {
 }
 
 .chess-piece-hero {
-  color: var(--chess-green);
+  color: var(--chess-red);
   font-size: clamp(1.8rem, 3.5vw, 2.5rem);
 }
 
@@ -119,14 +119,14 @@ main {
 
 .tagline {
   font-size: clamp(1.1rem, 2.5vw, 1.5rem);
-  color: var(--chess-green);
+  color: var(--chess-red);
   margin-bottom: 1.5rem;
   font-style: italic;
 }
 
 .hero-pieces {
   font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-  color: var(--chess-green);
+  color: var(--chess-red);
   letter-spacing: clamp(0.5rem, 1.5vw, 0.8rem);
   margin-top: 1.5rem;
 }
@@ -153,7 +153,7 @@ section h2::after {
   display: block;
   width: 50%;
   height: 4px;
-  background-color: var(--chess-green);
+  background-color: var(--chess-red);
   position: absolute;
   bottom: -10px;
   left: 25%;
@@ -188,7 +188,7 @@ section h2::after {
 
 .feature i {
   font-size: 2.5rem;
-  color: var(--chess-green);
+  color: var(--chess-red);
   margin-bottom: 1rem;
 }
 
@@ -213,7 +213,7 @@ section h2::after {
 .day {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--chess-green);
+  color: var(--chess-red);
   margin-bottom: 0.5rem;
 }
 
@@ -230,7 +230,7 @@ section h2::after {
   display: inline-block;
   padding: 1rem 2rem;
   margin: 2rem 0;
-  background-color: var(--chess-green);
+  background-color: var(--chess-red);
   color: white;
   text-decoration: none;
   border-radius: 50px;
@@ -249,7 +249,7 @@ section h2::after {
   font-size: 3rem;
   text-align: center;
   margin-top: 2rem;
-  color: var(--chess-green);
+  color: var(--chess-red);
   letter-spacing: 0.5rem;
 }
 
