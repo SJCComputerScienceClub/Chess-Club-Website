@@ -23,8 +23,8 @@
   "background_color": "#980018",
   "display": "standalone",
   "scope": "/",
-  "theme_color": "#_",
+  "theme_color": "#f0f0f0",
   "shortcuts": [],
-  "description": "_",
+  "description": "Chess Club Website Shortcut",
   "screenshots": []
 }
